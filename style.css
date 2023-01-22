@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width:320px) {
+    .col-1{
+        width:100%;
+    }
+    .col-2{
+        width:100%;
+    }
+    .sub-col{
+        width:50%;
+    }
+    .col-3{
+        width:100%;
+    }
+  }
+  @media (min-width:600px) {
+    .col-1{
+        width:100%;
+    }
+    .col-2{
+        width:100%;
+    }
+    .sub-col{
+        width:50%;
+    }
+    .col-3{
+        width:100%;
+    }
+  }
+  @media (min-width:800px) {
+    .col-1{
+        width:30%;
+    }
+    .col-2{
+        width:70%;
+    }
+    .sub-col{
+        width:25%;
+    }
+    .col-3{
+        width:50%;
+    }
+  }
+  @media (min-width:1025px) {
+    .col-1{
+        width:30%;
+    }
+    .col-2{
+        width:70%;
+    }
+    .sub-col{
+        width:25%;
+    }
+    .col-3{
+        width:50%;
+    }
+  }
+  .container{
+    margin:auto;
+    width:100%;
+    background-color: #dae9e9;
+  }
+  .content{
+    width:95%;
+    margin:auto;
+    font-family: sans-serif;
+  }
+  .row{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .col-1{
+    padding: 19px ;
+  }
+  .col-child{
+    width:100%;
+    background-color: #c29ee3;
+    box-shadow:  -6px -5px  10px #888888;
+    padding:276px 22px;
+  }
+  .col-2{
+    padding:11px 2px;
+  }
+  .row-2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sub-col{
+    padding: 8px ;
+  }
+  .sub-child{
+    width:100%;
+    padding:50px;
+    background-color: #25b725;
+    box-shadow: 2px 4px 10px #888888;
+  }
+  .cl-1{
+    background-color: #9e9eff;
+  }
+  .cl-3{
+    background-color: #7f7fed;
+  }
+  .col-center{
+    width:100%;
+    padding:18px 8px;
+  }
+  .sub-center{
+    background-color:#f1f04e;
+    padding:50px;
+    box-shadow:1px 0px 40px 1px rgb(1 1 1 / 55%);
+  }
+  .row-3{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-3{
+    padding: 8px;
+  }
+  .col3-child{
+    width:100%;
+    padding:130px 22px;
+    background-color: #ff8383;
+    box-shadow: 2px 4px 10px #888888;
+  }
+  .cl-6{
+    background-color: #f15994e8;
+    box-shadow:  7px -5px  10px #888888;
+  }
